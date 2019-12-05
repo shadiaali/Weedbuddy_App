@@ -1,5 +1,13 @@
 @import '_vars';
 
-.container {
-    background-color: $test;
+.body{
+    background-color: $softGreen;
+}
+.container-fluid {
+    background-color: $softGreen;
+}
+.jumbotron{
+    border-radius:50px;
+    height:50vh;
+    
 }

@@ -18,14 +18,16 @@
   "homepage": "https://github.com/shadiaali/weedbuddy_app#readme",
   "dependencies": {
     "electron": "^6.0.0",
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
     "johnny-five": "^1.0.0",
     "node-abi": "^2.7.0",
     "serialport": "^7.1.5"
   },
   "devDependencies": {
+    "browser-sync": "^2.26.7",
     "electron-rebuild": "^1.8.2",
-    "electron-reload": "^1.5.0"
+    "electron-reload": "^1.5.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sass": "^4.0.2"
   }
 }
