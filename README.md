@@ -1,5 +1,5 @@
 # Quickstart for Electron and Arduino
-![](https://rawgit.com/leoweigand/electron-arduino-quickstart/master/poster.png)
+![](https://raw.githubusercontent.com/shadiaali/Garduino/master/app/images/logo.png)
 
 ## Weedbuddy Companion App
 - ```npm install```
