@@ -2,12 +2,75 @@
 
 .body{
     background-color: $softGreen;
+    
 }
-.container-fluid {
+.container-fluid{
     background-color: $softGreen;
+    height:100vh;
 }
+
+.login-container {
+    background-color: #FFF;
+    height:80vh !important;
+}
+
 .jumbotron{
     border-radius:50px;
-    height:50vh;
-    
+
+
+}
+
+.login-logo{
+    max-width:350px;
+    width:100%;
+}
+
+.gbutt{
+    background-color:#42b400;
+    color: #FFF;
+    padding-top:0.7em;
+    padding-bottom:0.7em;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-family: $bodyFont;
+
+}
+
+a {
+    color: #42b400;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #c215c2;
+}
+
+b {
+    color: #6f26b4;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.md-form.md-bg input[type=date],
+.md-form.md-bg input[type=datetime-local],
+.md-form.md-bg input[type=email],
+.md-form.md-bg input[type=number],
+.md-form.md-bg input[type=password],
+.md-form.md-bg input[type=search-md],
+.md-form.md-bg input[type=search],
+.md-form.md-bg input[type=tel],
+.md-form.md-bg input[type=text],
+.md-form.md-bg input[type=time],
+.md-form.md-bg input[type=url],
+.md-form.md-bg textarea.md-textarea {
+    border-radius:50px;
+    background-color: #f5f5f5 !important;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#00c851), to(#00c851)), -webkit-gradient(linear, left top, left bottom, from(#ced4da), to(#ced4da)) !important;
+    background-image: linear-gradient(to bottom, #00c851, #00c851), linear-gradient(to bottom, #ced4da, #ced4da) !important;
+    background-size: 0 3px, 100% 3px;
+    -webkit-transition: -webkit-background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    -webkit-transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+    transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
