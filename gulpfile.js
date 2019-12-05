@@ -6,10 +6,10 @@ const autoprefixer = require("gulp-autoprefixer");
 
 gulp.task("sass", function() {
 return gulp
-  .src("./app/sass/**/*.scss")
-  .pipe(sass())
-  .pipe(autoprefixer())
-  .pipe(gulp.dest("./app/css"));
+    .src("./app/sass/**/*.scss")
+    .pipe(sass())
+    .pipe(autoprefixer())
+    .pipe(gulp.dest("./app/css"));
 });
 
 gulp.task("watch", function() {
@@ -19,16 +19,16 @@ gulp.watch("./app/*.{html,js,css}", gulp.series("reload"));
 
 gulp.task("serve", function() {
 browserSync.init({
-  server: {
+    server: {
     baseDir: "./app",
     index: "index.html"
-  }
+    }
 });
 });
 
 gulp.task("reload", function(done) {
-browserSync.reload();
-done();
+    browserSync.reload();
+    done();
 });
 
 gulp.task("default", gulp.parallel("serve", "watch"));
