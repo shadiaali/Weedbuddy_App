@@ -1,21 +1,21 @@
 {
-  "name": "electron-arduino-quickstart",
+  "name": "weedbuddy_app",
   "version": "1.0.0",
-  "description": "Boilerplate for getting started with Arduino and Electron",
+  "description": "Weedbuddy Garduino App",
   "main": "window.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leoweigand/electron-arduino-quickstart.git"
+    "url": "git+https://github.com/shadiaali/weedbuddy_app.git"
   },
-  "author": "Leo Weigand",
+  "author": "Shadia Ali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leoweigand/electron-arduino-quickstart/issues"
+    "url": "https://github.com/shadiaali/weedbuddy_app/issues"
   },
-  "homepage": "https://github.com/leoweigand/electron-arduino-quickstart#readme",
+  "homepage": "https://github.com/shadiaali/weedbuddy_app#readme",
   "dependencies": {
     "electron": "^6.0.0",
     "johnny-five": "^1.0.0",
