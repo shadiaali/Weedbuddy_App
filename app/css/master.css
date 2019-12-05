@@ -1,1 +1,9 @@
-.container{background-color:#000}
+.body {
+  background-color: #6CCF61; }
+
+.container-fluid {
+  background-color: #6CCF61; }
+
+.jumbotron {
+  border-radius: 50px;
+  height: 50vh; }
