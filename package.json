@@ -4,9 +4,7 @@
   "description": "Boilerplate for getting started with Arduino and Electron",
   "main": "window.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/electron-rebuild -v $(./node_modules/.bin/electron -v)",
-    "start": "./node_modules/.bin/electron .",
-    "watch": "./node_modules/.bin/electron . --watch"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
