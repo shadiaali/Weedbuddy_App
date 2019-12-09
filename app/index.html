@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Title</title>
+  <title>Weedbuddy|Login</title>
   <meta name="description" content="content description">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
@@ -19,15 +19,17 @@
 
 </head>
 
-<body>
+<body style="background-color:#6CCF61;">
   <!--Content -->
-  <div class="container-fluid wow fadeIn">
+  <div class="container-fluid" style="background-color:#6CCF61;">
     <div class="row d-flex justify-content-center">
       
       <div class="col-10 py-4 px-4">
-        <div class="jumbotron login-container">
+        <div class="jumbotron fluid login-container">
                 <div class="row justify-content-center">
       <div class="col-lg-8 col-sm-10 py-4 px-4">
+
+        <div class="jumbotron fluid">
               <div class="text-center col-12">
 <img class="login-logo mb-4 mt-4 " src="images/logo.png"></div>
 
@@ -43,8 +45,10 @@
 </div>
 <div class="col-12 text-center">
 <button type="submit" name="submit" class="mt-4 btn gbutt" style="border-radius:50px;">Submit</button></form>
+<a href="home.html">home</a>
+</form>
+</div></div>
 
-</form></div>
 
           </div>
 
@@ -57,6 +61,12 @@
   <!--End content-->
 
   <!-- SCRIPTS -->
+  <script>
+    if (typeof module === 'object') {
+      window.module = module;
+      module = undefined;
+    }
+  </script>
   <!-- JQuery -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -74,6 +84,10 @@
     // Animations initialization
     new WOW().init();
   </script>
+  <script>
+    if (window.module) module = window.module;
+  </script>
+
 </body>
 
 </html>
