@@ -1,40 +1,85 @@
 @import '_vars';
+@import 'modules/_nav';
+@import 'modules/_login';
 
-.body{
-    background-color: $softGreen;
-    
-}
-.container-fluid{
-    background-color: $softGreen;
-    height:100vh;
+body {
+
+    font-family: $bodyFont;
 }
 
-.login-container {
-    background-color: #FFF;
-    height:80vh !important;
-}
+.toast-header{
+        background-color:#F1F5F0;
+        border-bottom:none;
 
-.jumbotron{
+}
+.toast{
+    max-width: 80vw !important;
+    text-align:center;
+    background-color:#F1F5F0;
+    border:none;
+    box-shadow:none;
+    //border-radius:25px;
+}
+.status{
+    background-color:$softGrey;
     border-radius:50px;
-
+    font-family:$bodyFont;
+    font-size:1.2em;
+    letter-spacing: 1px;
+    padding:0.2em;
+    text-transform:uppercase;
+    margin:0 auto;
+    height:35px;
+    text-align:left;
+    color:$darkGreen;
+    img{
+        float:right;
+    }
 
 }
 
-.login-logo{
-    max-width:350px;
-    width:100%;
+.card-body{
+    h1{
+        font-family:$headerFont;
+        font-size:3.5em;
+        letter-spacing:3px;
+    }
 }
 
-.gbutt{
-    background-color:#42b400;
-    color: #FFF;
-    padding-top:0.7em;
-    padding-bottom:0.7em;
+.strain{
+    font-family:$bodyFont;
+    font-weight:bolder;
+    text-transform:uppercase;
+    font-size:1em;
+    letter-spacing: 1px;
+
+}
+.jumbotron{
+
+    box-shadow: none;
+}
+
+
+h1{
+    font-family:$headerFont;
+    color:$darkGreen;
+}
+//green button
+.gbutt {
+    background-color: #42b400;
+    color: $white;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
     letter-spacing: 1px;
     font-size: 1em;
     font-family: $bodyFont;
 
 }
+
+.gbutt:hover {
+    color: $white;
+}
+
 
 a {
     color: #42b400;
@@ -46,13 +91,23 @@ a:hover {
 }
 
 b {
-    color: #6f26b4;
+    color: $darkGreen;
+    font-family:$bodyFont;
+    letter-spacing:1px;
+    font-weight:bolder !important;
+    font-size:1.2em !important;
+}
+.toast-body{
+    font-size:1.2em !important;
+    text-align:left;
 }
 
 p {
     font-size: 1.3em;
+    font-family: $bodyFont;
 }
 
+//input
 .md-form.md-bg input[type=date],
 .md-form.md-bg input[type=datetime-local],
 .md-form.md-bg input[type=email],
@@ -74,3 +129,7 @@ p {
     -webkit-transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
     transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
+
+
+
+

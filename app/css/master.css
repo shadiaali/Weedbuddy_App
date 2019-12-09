@@ -1,13 +1,11 @@
-.body {
-  background-color: #6CCF61; }
-
-.container-fluid {
+.navbar {
   background-color: #6CCF61;
-  height: 100vh; }
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
 
 .login-container {
-  background-color: #FFF;
-  height: 80vh !important; }
+  background-color: transparent;
+  box-shadow: none; }
 
 .jumbotron {
   border-radius: 50px; }
@@ -15,6 +13,54 @@
 .login-logo {
   max-width: 350px;
   width: 100%; }
+
+body {
+  font-family: "Varela Round", sans-serif; }
+
+.toast-header {
+  background-color: #F1F5F0;
+  border-bottom: none; }
+
+.toast {
+  max-width: 80vw !important;
+  text-align: center;
+  background-color: #F1F5F0;
+  border: none;
+  box-shadow: none; }
+
+.status {
+  background-color: #EFEFEF;
+  border-radius: 50px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding: 0.2em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  height: 35px;
+  text-align: left;
+  color: #23421F; }
+  .status img {
+    float: right; }
+
+.card-body h1 {
+  font-family: "garage-gothic", sans-serif;
+  font-size: 3.5em;
+  letter-spacing: 3px; }
+
+.strain {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px; }
+
+.jumbotron {
+  box-shadow: none; }
+
+h1 {
+  font-family: "garage-gothic", sans-serif;
+  color: #23421F; }
 
 .gbutt {
   background-color: #42b400;
@@ -25,6 +71,9 @@
   font-size: 1em;
   font-family: "Varela Round", sans-serif; }
 
+.gbutt:hover {
+  color: #FFF; }
+
 a {
   color: #42b400;
   text-transform: uppercase; }
@@ -33,10 +82,19 @@ a:hover {
   color: #c215c2; }
 
 b {
-  color: #6f26b4; }
+  color: #23421F;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bolder !important;
+  font-size: 1.2em !important; }
+
+.toast-body {
+  font-size: 1.2em !important;
+  text-align: left; }
 
 p {
-  font-size: 1.3em; }
+  font-size: 1.3em;
+  font-family: "Varela Round", sans-serif; }
 
 .md-form.md-bg input[type=date],
 .md-form.md-bg input[type=datetime-local],
