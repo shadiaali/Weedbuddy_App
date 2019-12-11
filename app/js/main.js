@@ -25,18 +25,39 @@ var board = new five.Board({
   repl:false
 });
 
-var valueDiv = document.querySelector("#plantValue");
+var temp = document.querySelector("#tempValue");
+var light = document.querySelector("#lightValue");
+var moisture = document.querySelector("#moistureValue");
 
 board.on("ready", function(){
-var sensor = new five.Sensor({
-  pin: "A0",
-  freq: 250,
-  threshold: 2
-  });
+	var sensor = new five.Sensor({
+		pin: "A0",
+        freq: 250,
+        threshold: 2
+	});
+	
+	var photoresistor = new five.Sensor({
+		pin: "A2",
+		frequency: 250
+	});
+	
+	var thermometer = new five.Sensor({
+		controller: "LM35",
+        pin: "A3"
+    });
 
-  sensor.on("change", function(){
-    var sensorInfo = this.value;
-    valueDiv.innerHTML = sensorInfo;
-  });
-  
+thermometer.on("change", function(){
+    var tempInfo = this.value;
+	temp.innerHTML = tempInfo;  
+    });
+	
+photoresistor.on("data", function() {
+    var lightInfo = this.value;
+	light.innerHTML = lightInfo;	
+    });
+
+sensor.on("change", function(){
+	var moistureInfo = this.value;
+	moisture.innerHTML = moistureInfo;  
+    });
 });
