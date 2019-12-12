@@ -1,0 +1,139 @@
+.navbar {
+  background-color: #6CCF61;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
+
+.login-container {
+  background-color: transparent;
+  box-shadow: none; }
+
+.jumbotron {
+  border-radius: 50px; }
+
+.login-logo {
+  max-width: 350px;
+  width: 100%; }
+
+.card-header {
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  background-color: #6CCF61 !important; }
+
+.card {
+  border-radius: 25px;
+  box-shadow: none; }
+
+.main-card {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important; }
+
+body {
+  font-family: "Varela Round", sans-serif; }
+
+.toast-header {
+  background-color: #F1F5F0;
+  border-bottom: none; }
+
+.toast {
+  max-width: 80vw !important;
+  text-align: center;
+  background-color: #F1F5F0;
+  border: none;
+  box-shadow: none; }
+
+.status {
+  background-color: #EFEFEF;
+  border-radius: 50px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding: 0.2em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  height: 35px;
+  text-align: left;
+  color: #23421F; }
+  .status img {
+    float: right; }
+
+.card-body {
+  background-color: #6CCF61;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
+  .card-body h1 {
+    font-family: "garage-gothic", sans-serif;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 800 !important; }
+
+.strain {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px; }
+
+.jumbotron {
+  box-shadow: none; }
+
+h1 {
+  font-family: "garage-gothic", sans-serif;
+  color: #23421F; }
+
+.view-plant {
+  background-color: #23421F; }
+
+.gbutt {
+  background-color: #42b400;
+  color: #FFF;
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  letter-spacing: 1px;
+  font-size: 1em;
+  font-family: "Varela Round", sans-serif; }
+
+.gbutt:hover {
+  color: #FFF; }
+
+a {
+  color: #42b400;
+  text-transform: uppercase; }
+
+a:hover {
+  color: #c215c2; }
+
+b {
+  color: #23421F;
+  font-family: "Varela Round", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bolder !important;
+  font-size: 1.2em !important; }
+
+.toast-body {
+  font-size: 1.2em !important;
+  text-align: left; }
+
+p {
+  font-size: 1.3em;
+  font-family: "Varela Round", sans-serif; }
+
+.md-form.md-bg input[type=date],
+.md-form.md-bg input[type=datetime-local],
+.md-form.md-bg input[type=email],
+.md-form.md-bg input[type=number],
+.md-form.md-bg input[type=password],
+.md-form.md-bg input[type=search-md],
+.md-form.md-bg input[type=search],
+.md-form.md-bg input[type=tel],
+.md-form.md-bg input[type=text],
+.md-form.md-bg input[type=time],
+.md-form.md-bg input[type=url],
+.md-form.md-bg textarea.md-textarea {
+  border-radius: 50px;
+  background-color: #f5f5f5 !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#00c851), to(#00c851)), -webkit-gradient(linear, left top, left bottom, from(#ced4da), to(#ced4da)) !important;
+  background-image: linear-gradient(to bottom, #00c851, #00c851), linear-gradient(to bottom, #ced4da, #ced4da) !important;
+  background-size: 0 3px, 100% 3px;
+  -webkit-transition: -webkit-background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  -webkit-transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1); }
