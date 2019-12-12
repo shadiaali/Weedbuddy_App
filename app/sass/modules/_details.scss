@@ -1,0 +1,15 @@
+.card-header{
+    border-top-right-radius:25px !important;
+    border-top-left-radius:25px !important;
+    background-color: $softGreen !important;
+}
+
+.card{
+    border-radius:25px;
+    box-shadow: none;
+}
+
+.main-card{
+    border-top-right-radius:0px !important;
+    border-top-left-radius:0px !important;
+}
