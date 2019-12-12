@@ -38,19 +38,35 @@ body {
     }
 
 }
+.plant-name {
+    font-family: $headerFont;
+    font-size: 3.5em !important;
+    //letter-spacing:3px;
+    font-style: normal;
+    font-weight: 800 !important;
+    text-transform:none;
+}
+
+.status-icon {
+    background-color: $softGrey;
+    border-radius: 50px;
+    font-family: $bodyFont;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 0.2em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 35px;
+    color: $darkGreen;
+
+}
 
 .card-body{
     background-color:$softGreen;
     border-bottom-left-radius:25px;
     border-bottom-right-radius:25px;
 
-    h1{
-        font-family:$headerFont;
-        font-size:3.5em;
-        //letter-spacing:3px;
-        font-style: normal;
-        font-weight: 800 !important;
-    }
+    
 }
 
 .strain{
@@ -74,6 +90,7 @@ h1{
 
 .view-plant{
     background-color:$darkGreen;
+    font-size:1em;
 }
 //green button
 .gbutt {

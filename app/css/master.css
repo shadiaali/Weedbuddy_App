@@ -24,7 +24,6 @@
   box-shadow: none; }
 
 .main-card {
-  border-top-right-radius: 0px !important;
   border-top-left-radius: 0px !important; }
 
 body {
@@ -56,15 +55,29 @@ body {
   .status img {
     float: right; }
 
+.plant-name {
+  font-family: "garage-gothic", sans-serif;
+  font-size: 3.5em !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  text-transform: none; }
+
+.status-icon {
+  background-color: #EFEFEF;
+  border-radius: 50px;
+  font-family: "Varela Round", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding: 0.2em;
+  text-transform: uppercase;
+  margin: 0 auto;
+  height: 35px;
+  color: #23421F; }
+
 .card-body {
   background-color: #6CCF61;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px; }
-  .card-body h1 {
-    font-family: "garage-gothic", sans-serif;
-    font-size: 3.5em;
-    font-style: normal;
-    font-weight: 800 !important; }
 
 .strain {
   font-family: "Varela Round", sans-serif;
@@ -81,7 +94,8 @@ h1 {
   color: #23421F; }
 
 .view-plant {
-  background-color: #23421F; }
+  background-color: #23421F;
+  font-size: 1em; }
 
 .gbutt {
   background-color: #42b400;
