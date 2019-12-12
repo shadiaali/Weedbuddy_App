@@ -137,7 +137,7 @@ board.on("ready", function () {
   var temperature = new five.Temperature({
     controller: "LM35",
     pin: "A3",
-    freq: 500
+    freq: 4000
   });
 
   temperature.on("change", function () {

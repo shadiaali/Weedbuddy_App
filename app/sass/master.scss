@@ -10,13 +10,6 @@ body {
 }
 
 
-.main-card-body{
-    background-color:$softGreen;
-    border-bottom-left-radius:25px;
-    border-bottom-right-radius:25px;
-
-    
-}
 
 
 .jumbotron{
@@ -47,10 +40,10 @@ a:hover {
 
 b {
     color: $darkGreen;
-    font-family:$bodyFont;
-    letter-spacing:1px;
-    font-weight:bolder !important;
-    font-size:1.2em !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+    font-family: $bodyFont;
+    color: #43813C;
 }
 
 

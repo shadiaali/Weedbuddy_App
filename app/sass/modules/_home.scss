@@ -1,22 +1,30 @@
 //toast top notifications
 .toast-header {
-    background-color: #F1F5F0;
-    border-bottom: none;
+    border-bottom: none !important;
+    background-color:$lightGreen !important;
+
 
 }
 
 .toast {
     max-width: 80vw !important;
     text-align: center;
-    background-color: #F1F5F0;
+    background-color: rgba(239, 239, 239, 0.4) !important;
     border: none;
     box-shadow: none;
-    //border-radius:25px;
+    border-radius:25px;
 }
 
 .toast-body {
-    font-size: 1.2em !important;
+    font-size: 1.4em !important;
     text-align: left;
+}
+
+//cards 
+.main-card-body {
+    background-color: $softGreen;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 //plant status
@@ -71,12 +79,13 @@
 
 }
 
+//view plant button
 .view-plant {
     background-color: $darkGreen;
     font-size: 1em;
 }
 
-//green button
+//add plant & login button
 .gbutt {
     background-color: #42b400;
     color: $white;

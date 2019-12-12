@@ -15,19 +15,25 @@
   width: 100%; }
 
 .toast-header {
-  background-color: #F1F5F0;
-  border-bottom: none; }
+  border-bottom: none !important;
+  background-color: #DCFFD8 !important; }
 
 .toast {
   max-width: 80vw !important;
   text-align: center;
-  background-color: #F1F5F0;
+  background-color: rgba(239, 239, 239, 0.4) !important;
   border: none;
-  box-shadow: none; }
+  box-shadow: none;
+  border-radius: 25px; }
 
 .toast-body {
-  font-size: 1.2em !important;
+  font-size: 1.4em !important;
   text-align: left; }
+
+.main-card-body {
+  background-color: #6CCF61;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
 
 .status {
   background-color: #EFEFEF;
@@ -76,7 +82,7 @@
 
 .gbutt {
   background-color: #42b400;
-  color: #FFF;
+  color: #FFFFFF;
   padding-top: 0.7em;
   padding-bottom: 0.7em;
   letter-spacing: 1px;
@@ -84,7 +90,7 @@
   font-family: "Varela Round", sans-serif; }
 
 .gbutt:hover {
-  color: #FFF; }
+  color: #FFFFFF; }
 
 .card-header {
   border-top-right-radius: 25px !important;
@@ -100,11 +106,6 @@
 
 body {
   font-family: "Varela Round", sans-serif; }
-
-.main-card-body {
-  background-color: #6CCF61;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px; }
 
 .jumbotron {
   box-shadow: none; }
@@ -126,10 +127,10 @@ a:hover {
 
 b {
   color: #23421F;
+  font-style: normal !important;
+  font-weight: 800 !important;
   font-family: "Varela Round", sans-serif;
-  letter-spacing: 1px;
-  font-weight: bolder !important;
-  font-size: 1.2em !important; }
+  color: #43813C; }
 
 p {
   font-size: 1.3em;
