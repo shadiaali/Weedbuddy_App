@@ -14,21 +14,6 @@
   max-width: 350px;
   width: 100%; }
 
-.card-header {
-  border-top-right-radius: 25px !important;
-  border-top-left-radius: 25px !important;
-  background-color: #6CCF61 !important; }
-
-.card {
-  border-radius: 25px;
-  box-shadow: none; }
-
-.main-card {
-  border-top-left-radius: 0px !important; }
-
-body {
-  font-family: "Varela Round", sans-serif; }
-
 .toast-header {
   background-color: #F1F5F0;
   border-bottom: none; }
@@ -39,6 +24,10 @@ body {
   background-color: #F1F5F0;
   border: none;
   box-shadow: none; }
+
+.toast-body {
+  font-size: 1.2em !important;
+  text-align: left; }
 
 .status {
   background-color: #EFEFEF;
@@ -74,24 +63,12 @@ body {
   height: 35px;
   color: #23421F; }
 
-.card-body {
-  background-color: #6CCF61;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px; }
-
 .strain {
   font-family: "Varela Round", sans-serif;
   font-weight: bolder;
   text-transform: uppercase;
   font-size: 1em;
   letter-spacing: 1px; }
-
-.jumbotron {
-  box-shadow: none; }
-
-h1 {
-  font-family: "garage-gothic", sans-serif;
-  color: #23421F; }
 
 .view-plant {
   background-color: #23421F;
@@ -109,6 +86,37 @@ h1 {
 .gbutt:hover {
   color: #FFF; }
 
+.card-header {
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  background-color: #6CCF61 !important; }
+
+.card {
+  border-radius: 25px;
+  box-shadow: none; }
+
+.main-card {
+  border-top-left-radius: 0px !important; }
+
+body {
+  font-family: "Varela Round", sans-serif; }
+
+.main-card-body {
+  background-color: #6CCF61;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
+
+.jumbotron {
+  box-shadow: none; }
+
+h1 {
+  font-family: "garage-gothic", sans-serif;
+  color: #23421F;
+  font-size: 6em !important;
+  font-style: normal;
+  font-weight: 800 !important;
+  text-transform: none; }
+
 a {
   color: #42b400;
   text-transform: uppercase; }
@@ -122,10 +130,6 @@ b {
   letter-spacing: 1px;
   font-weight: bolder !important;
   font-size: 1.2em !important; }
-
-.toast-body {
-  font-size: 1.2em !important;
-  text-align: left; }
 
 p {
   font-size: 1.3em;

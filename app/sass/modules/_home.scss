@@ -1,0 +1,93 @@
+//toast top notifications
+.toast-header {
+    background-color: #F1F5F0;
+    border-bottom: none;
+
+}
+
+.toast {
+    max-width: 80vw !important;
+    text-align: center;
+    background-color: #F1F5F0;
+    border: none;
+    box-shadow: none;
+    //border-radius:25px;
+}
+
+.toast-body {
+    font-size: 1.2em !important;
+    text-align: left;
+}
+
+//plant status
+.status {
+    background-color: $softGrey;
+    border-radius: 50px;
+    font-family: $bodyFont;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 0.2em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 35px;
+    text-align: left;
+    color: $darkGreen;
+
+    img {
+        float: right;
+    }
+
+}
+
+.plant-name {
+    font-family: $headerFont;
+    font-size: 3.5em !important;
+    //letter-spacing:3px;
+    font-style: normal;
+    font-weight: 800 !important;
+    text-transform: none;
+}
+
+.status-icon {
+    background-color: $softGrey;
+    border-radius: 50px;
+    font-family: $bodyFont;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 0.2em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    height: 35px;
+    color: $darkGreen;
+
+}
+
+.strain {
+    font-family: $bodyFont;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 1px;
+
+}
+
+.view-plant {
+    background-color: $darkGreen;
+    font-size: 1em;
+}
+
+//green button
+.gbutt {
+    background-color: #42b400;
+    color: $white;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-family: $bodyFont;
+
+}
+
+.gbutt:hover {
+    color: $white;
+}
