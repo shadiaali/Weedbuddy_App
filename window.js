@@ -16,11 +16,11 @@ let mainWindow
 
 app.on('ready', () => {
     mainWindow = new BrowserWindow({
-      height: 800,
-      width: 1280,
+      height: 505,
+      width: 595,
       resizable: true,
       title: 'j5/electron template',
-      frame: true,
+      frame: false,
         webPreferences: {
             nodeIntegration: true
         }
@@ -34,9 +34,9 @@ app.on('ready', () => {
 
     mainWindow.webContents.openDevTools()
 
-   // mainWindow.on('closed', function () {
-   //     mainWindow = null
-  //})
+    mainWindow.on('closed', function () {
+        mainWindow = null
+  })
 
 
 });

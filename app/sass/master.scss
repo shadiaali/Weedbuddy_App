@@ -1,6 +1,7 @@
 @import '_vars';
 @import 'modules/_nav';
 @import 'modules/_login';
+@import 'modules/_details';
 
 body {
 
@@ -39,10 +40,16 @@ body {
 }
 
 .card-body{
+    background-color:$softGreen;
+    border-bottom-left-radius:25px;
+    border-bottom-right-radius:25px;
+
     h1{
         font-family:$headerFont;
         font-size:3.5em;
-        letter-spacing:3px;
+        //letter-spacing:3px;
+        font-style: normal;
+        font-weight: 800 !important;
     }
 }
 
@@ -63,6 +70,10 @@ body {
 h1{
     font-family:$headerFont;
     color:$darkGreen;
+}
+
+.view-plant{
+    background-color:$darkGreen;
 }
 //green button
 .gbutt {

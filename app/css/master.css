@@ -14,6 +14,19 @@
   max-width: 350px;
   width: 100%; }
 
+.card-header {
+  border-top-right-radius: 25px !important;
+  border-top-left-radius: 25px !important;
+  background-color: #6CCF61 !important; }
+
+.card {
+  border-radius: 25px;
+  box-shadow: none; }
+
+.main-card {
+  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0px !important; }
+
 body {
   font-family: "Varela Round", sans-serif; }
 
@@ -43,10 +56,15 @@ body {
   .status img {
     float: right; }
 
-.card-body h1 {
-  font-family: "garage-gothic", sans-serif;
-  font-size: 3.5em;
-  letter-spacing: 3px; }
+.card-body {
+  background-color: #6CCF61;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px; }
+  .card-body h1 {
+    font-family: "garage-gothic", sans-serif;
+    font-size: 3.5em;
+    font-style: normal;
+    font-weight: 800 !important; }
 
 .strain {
   font-family: "Varela Round", sans-serif;
@@ -61,6 +79,9 @@ body {
 h1 {
   font-family: "garage-gothic", sans-serif;
   color: #23421F; }
+
+.view-plant {
+  background-color: #23421F; }
 
 .gbutt {
   background-color: #42b400;

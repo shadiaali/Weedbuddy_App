@@ -1,31 +1,32 @@
 {
-  "name": "weedbuddy_app",
+  "name": "electron-arduino-quickstart",
   "version": "1.0.0",
-  "description": "Weedbuddy Garduino App",
+  "description": "Boilerplate for getting started with Arduino and Electron",
   "main": "window.js",
   "scripts": {
-    "start": "electron ."
+    "postinstall": "./node_modules/.bin/electron-rebuild -v $(./node_modules/.bin/electron -v)",
+    "start": "./node_modules/.bin/electron .",
+    "watch": "./node_modules/.bin/electron . --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadiaali/weedbuddy_app.git"
+    "url": "git+https://github.com/leoweigand/electron-arduino-quickstart.git"
   },
-  "author": "Shadia Ali",
+  "author": "Leo Weigand",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shadiaali/weedbuddy_app/issues"
+    "url": "https://github.com/leoweigand/electron-arduino-quickstart/issues"
   },
-  "homepage": "https://github.com/shadiaali/weedbuddy_app#readme",
+  "homepage": "https://github.com/leoweigand/electron-arduino-quickstart#readme",
   "dependencies": {
-    "electron": "^6.1.5",
+    "electron": "^6.0.0",
     "johnny-five": "^1.0.0",
-    "jquery": "^3.4.1",
     "node-abi": "^2.7.0",
-    "serialport": "^8.0.5"
+    "serialport": "^7.1.5"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "electron-rebuild": "^1.8.8",
+    "electron-rebuild": "^1.8.2",
     "electron-reload": "^1.5.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
