@@ -1,5 +1,6 @@
 # Weedbuddy
 ![](https://github.com/shadiaali/Weedbuddy_App/blob/master/app/images/logo.png)
+
 Weedbuddy is your buddy! Weedbuddy is a plant monitoring prototype to help your buds reach their fullest potential. 
 
 ## Installation
