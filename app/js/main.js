@@ -32,18 +32,18 @@ var board = new five.Board({
 //sensors
 var moisture, moistureReading, moisturePlaceholder;
 moisture = document.querySelector("#moisture");
-moistureReading = moisture.querySelector(".sensorData h3");
+moistureReading = moisture.querySelector(".sensorData");
 moisturePlaceholder = moisture.querySelector(".sensorLabel");
 
 var temperature, temperatureReading, temperaturePlaceholder;
 temperature = document.querySelector("#temperature");
-temperatureReading = temperature.querySelector(".sensorData h3");
+temperatureReading = temperature.querySelector(".sensorData");
 temperaturePlaceholder = temperature.querySelector(".sensorLabel");
 
 
 var photoresistor, photoresistorReading, photoresistorPlaceholder;
 photoresistor = document.querySelector("#photoresistor");
-photoresistorReading = photoresistor.querySelector(".sensorData h3");
+photoresistorReading = photoresistor.querySelector(".sensorData");
 photoresistorPlaceholder = photoresistor.querySelector(".sensorLabel");
 
 
@@ -77,11 +77,11 @@ board.on("ready", function () {
     var value = rounding(sensorInfo);
 
     if (value >= 90) {
-      moisturePlaceholder.innerHTML = "HIGH";
+      moisturePlaceholder.innerHTML = "Very wet";
     } else if (value > 15) {
-      moisturePlaceholder.innerHTML = "GOOD";
+      moisturePlaceholder.innerHTML = "Perfect";
     } else {
-      moisturePlaceholder.innerHTML = "LOW";
+      moisturePlaceholder.innerHTML = "Parched";
     }
 
   //moisture chart
@@ -93,10 +93,10 @@ board.on("ready", function () {
         labels: ['Moisture Percentage', 'Dry Level'],
         datasets: [{
           data: [value, 100 - value],
-          backgroundColor: ['#6CCF61'],
+          backgroundColor: ['#4F88F5'],
           borderWidth: [1, 0],
           hoverBorderWidth: 3,
-          hoverBorderColor: '#000',
+          hoverBorderColor: '#FFF',
         }]
       },
       options: {
@@ -104,7 +104,7 @@ board.on("ready", function () {
           display: true,
           position: 'bottom',
           labels: {
-            fontColor: 'rgb(255, 99, 132)'
+            fontColor: '#000'
           }
         },
         
@@ -144,11 +144,11 @@ board.on("ready", function () {
         temperatureReading.innerHTML = this.celsius + "°";
         var value = this.celsius;
         if (value >= 30) {
-          temperaturePlaceholder.innerHTML = "HIGH";
+          temperaturePlaceholder.innerHTML = "Burning Up";
         } else if (value > 5) {
-          temperaturePlaceholder.innerHTML = "GOOD";
+          temperaturePlaceholder.innerHTML = "Ideal";
         } else {
-          temperaturePlaceholder.innerHTML = "LOW";
+          temperaturePlaceholder.innerHTML = "Too Cold!";
         }
     
 //temperature chart
@@ -160,7 +160,7 @@ board.on("ready", function () {
         labels: ['Temperature'],
         datasets: [{
           data: [value],
-          backgroundColor: ['#6CCF61'],
+          backgroundColor: ['#E57539'],
           borderWidth: [1, 0],
           
         }]
@@ -213,11 +213,11 @@ photoresistorReading.innerHTML = rounding(sensorInfo) + "<span> lm</span>";
 value = rounding(sensorInfo);
 
 if (value >= 95) {
-  photoresistorPlaceholder.innerHTML = "HIGH";
+  photoresistorPlaceholder.innerHTML = "Just Right";
 } else if (value > 40) {
-  photoresistorPlaceholder.innerHTML = "GOOD";
+  photoresistorPlaceholder.innerHTML = "Could be Better";
 } else {
-  photoresistorPlaceholder.innerHTML = "LOW";
+  photoresistorPlaceholder.innerHTML = "Too Dark";
 }
 
   //photoresistor chart
@@ -229,10 +229,10 @@ data: {
   labels: ['Light Level', 'Dark Level'],
   datasets: [{
     data: [value, 100 - value],
-    backgroundColor: ['#6CCF61'],
+    backgroundColor: ['#F4EB1B'],
     borderWidth: [1, 0],
     hoverBorderWidth: 3,
-    hoverBorderColor: '#000',
+    hoverBorderColor: '#FFF',
   }]
 },
 options: {
@@ -240,7 +240,7 @@ options: {
     display: true,
     position: 'bottom',
     labels: {
-      fontColor: 'rgb(255, 99, 132)'
+      fontColor: '#000'
     }
   },
 

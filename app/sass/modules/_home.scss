@@ -2,6 +2,8 @@
 .toast-header {
     border-bottom: none !important;
     background-color:$lightGreen !important;
+    border-bottom: 1px solid $softGreen !important;
+
 
 
 }
@@ -9,8 +11,7 @@
 .toast {
     max-width: 80vw !important;
     text-align: center;
-    background-color: rgba(239, 239, 239, 0.4) !important;
-    border: none;
+    background-color:  $white !important;
     box-shadow: none;
     border-radius:25px;
 }

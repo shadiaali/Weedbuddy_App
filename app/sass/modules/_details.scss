@@ -2,6 +2,17 @@
     border-top-right-radius:25px !important;
     border-top-left-radius:25px !important;
     background-color: $softGreen !important;
+    color:$white;
+    font-size:2em;
+}
+
+.card-footer {
+    border-bottom-right-radius:25px !important;
+    border-bottom-left-radius:25px !important;
+    background-color: $softGreen !important;
+    color:$white;
+    font-size:2em;
+
 }
 
 .card{

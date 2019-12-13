@@ -16,8 +16,8 @@ let mainWindow
 
 app.on('ready', () => {
     mainWindow = new BrowserWindow({
-      height: 505,
-      width: 595,
+      height: 768,
+      width: 1366,
       resizable: true,
       title: 'j5/electron template',
       frame: false,
@@ -32,7 +32,7 @@ app.on('ready', () => {
     slashes: true
   }))
 
-    mainWindow.webContents.openDevTools()
+    //mainWindow.webContents.openDevTools()
 
     mainWindow.on('closed', function () {
         mainWindow = null

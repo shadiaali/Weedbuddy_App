@@ -16,13 +16,13 @@
 
 .toast-header {
   border-bottom: none !important;
-  background-color: #DCFFD8 !important; }
+  background-color: #DCFFD8 !important;
+  border-bottom: 1px solid #6CCF61 !important; }
 
 .toast {
   max-width: 80vw !important;
   text-align: center;
-  background-color: rgba(239, 239, 239, 0.4) !important;
-  border: none;
+  background-color: #FFFFFF !important;
   box-shadow: none;
   border-radius: 25px; }
 
@@ -95,7 +95,16 @@
 .card-header {
   border-top-right-radius: 25px !important;
   border-top-left-radius: 25px !important;
-  background-color: #6CCF61 !important; }
+  background-color: #6CCF61 !important;
+  color: #FFFFFF;
+  font-size: 2em; }
+
+.card-footer {
+  border-bottom-right-radius: 25px !important;
+  border-bottom-left-radius: 25px !important;
+  background-color: #6CCF61 !important;
+  color: #FFFFFF;
+  font-size: 2em; }
 
 .card {
   border-radius: 25px;
